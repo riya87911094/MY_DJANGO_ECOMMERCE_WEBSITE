@@ -139,8 +139,7 @@ if os.getcwd() == '/app':
 
     #Allow all host headers
     ALLOWED_HOSTS = ['ecommerceeee.herokuapp.com']
-    DEBUG = True
-
+    
     #Static asset configuration
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
