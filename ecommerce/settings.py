@@ -25,7 +25,7 @@ SECRET_KEY = 'twt=kw2l2+vztbemwy6w4(bxmfea3eqy)(c*#fe#c9a4p@)u3)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -139,6 +139,7 @@ if os.getcwd() == '/app':
 
     #Allow all host headers
     ALLOWED_HOSTS = ['ecommerceeee.herokuapp.com']
+    DEBUG = True
     
     #Static asset configuration
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
